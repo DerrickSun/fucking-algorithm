@@ -12,7 +12,7 @@ Since we are asked to calculate the maximum or minimum, what is the core problem
 
 Is dynamic programming so easy that only enumeration is OK? What I see about dynamic programming problems are all hard.
 
-Firstly, the enumeration of dynamic programming is a bit special, because there **exists [overlapped subproblems]** this kind of problems have extremely low efficiency, we need [memos] or [DP table] to optimize the process of enumeration to avoid unnecessary calculations.
+Firstly, the enumeration of dynamic programming is a bit special, because there **exists [overlapping subproblems]** this kind of problems have extremely low efficiency, we need [memos] or [DP table] to optimize the process of enumeration to avoid unnecessary calculations.
 
 And that, the DP problems must **have [best substructure]** , only through the max or min of subproblems can we obtain the max or min of original problems.
 
