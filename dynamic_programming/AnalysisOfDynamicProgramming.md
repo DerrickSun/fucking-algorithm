@@ -136,7 +136,7 @@ Why is it called "state transfer equation"? To sound high-end. You want f of n t
 
 You will find that all the operations in the above solutions, such as return f(n - 1) + f(n - 2), dp[i] = dp[i - 1] + dp[i - 2], and the initialization of the memo or dp table, all revolve around different representations of this equation. It is important to list the "state transfer equation", which is the core of the solution. It's easy to see that the equation of state transition directly represents the violent solution.
 
-** never look down upon the violent solution, the most difficult part of the dynamic programming problem is to write the state transfer equation **, that is, the violent solution. Optimization method is nothing more than the use of memorandum or DP table, no mystery at all.
+*** never look down upon the violent solution, the most difficult part of the dynamic programming problem is to write the state transfer equation ***, that is, the violent solution. Optimization method is nothing more than the use of memorandum or DP table, no mystery at all.
 
 At the end of this example, there's a little detail optimization. Careful readers will find that, according to the state transition equation of the Fibonacci sequence, the current state is only related to the previous two states. In fact, it is not necessary to have a long DP table to store all the states, just find a way to store the previous two states. Therefore, it can be further optimized to reduce the space complexity to O(1) :
 
